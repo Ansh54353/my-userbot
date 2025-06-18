@@ -7,7 +7,7 @@ import os
 # --- CONFIG --- #
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
-SESSION_NAME = 'explore_crime_bot'
+SESSION_NAME = 'explore_crime_session'
 TARGET_CHAT = int(os.getenv("TARGET_CHAT"))
 OWNER_USERNAME = os.getenv("OWNER_USERNAME")
 
